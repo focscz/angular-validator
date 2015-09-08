@@ -158,10 +158,10 @@ angular.module('angularValidator').directive('angularValidator', ['$injector',
                 function updateValidationMessage(element, formInvalidMessage) {
 
                     var defaultRequiredMessage = function() {
-                        return "<i class='fa fa-times'></i> Required";
+                        return "<i class='fa fa-times'></i> Povinné";
                     };
                     var defaultInvalidMessage = function() {
-                        return "<i class='fa fa-times'></i> Invalid";
+                        return "<i class='fa fa-times'></i> Chyba";
                     };
 
                     // Make sure the element is a form field and not a button for example
